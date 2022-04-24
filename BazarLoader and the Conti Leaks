@@ -2,8 +2,8 @@
 YARA Rule Set
 Author: The DFIR Report
 Date: 2021-09-01
-Identifier: BazarLoader to Conti Ransomware in 32 Hours
-Reference: https://thedfirreport.com/2021/09/13/bazarloader-to-conti-ransomware-in-32-hours/
+Identifier: BazarLoader and the Conti Leaks
+Reference: https://thedfirreport.com/2021/10/04/bazarloader-and-the-conti-leaks/
 */
 
 rule informational_AnyDesk_Remote_Software_Utility { 
