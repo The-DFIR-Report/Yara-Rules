@@ -2,7 +2,7 @@
 YARA Rule Set
 Author: The DFIR Report
 Date: 2022-04-24
-Identifier: Quantum Case 12647
+Identifier: Quantum Ransomware - Case 12647
 Reference: https://thedfirreport.com
 */
 
