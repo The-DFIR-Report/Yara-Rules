@@ -77,5 +77,5 @@ rule qbot_dll_8734 {
       $s20 = "Database Login" fullword ascii
    condition:
       uint16(0) == 0x5a4d and filesize < 3000KB and
-      8 of them
+      12 of them
 }
