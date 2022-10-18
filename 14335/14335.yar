@@ -187,7 +187,7 @@ rule find_bat_14335 {
 		author = "The DFIR Report"
 		reference = "https://thedfirreport.com/2022/09/12/dead-or-alive-an-emotet-story/"
 		date = "2022-09-12"
-		hash1 = "5bc00ad792d4ddac7d8568f98a717caff9d5ef389ed355a15b892cc10ab2887b"
+		hash1 = "5a5c601ede80d53e87e9ccb16b3b46f704e63ec7807e51f37929f65266158f4c"
 	strings:
 		$x1 = "find.exe" nocase wide ascii
 				
