@@ -40,7 +40,7 @@ $s19 = "api-ms-win-core-file-l1-2-2" fullword wide /* Goodware String - occured 
 $s20 = "__swift_2" fullword ascii
 condition:
 uint16(0) == 0x5a4d and filesize < 3000KB and
-( pe.imphash() == "d8af53b239700b702d462c81a96d396c" or all of them )
+( pe.imphash() == "d8af53b239700b702d462c81a96d396c" and all of them )
 }
 
 rule cobalt_strike_tmp01925d3f {
@@ -73,7 +73,7 @@ $s19 = "gromyko" fullword ascii
 $s20 = "api-ms-win-appmodel-runtime-l1-1-2" fullword wide
 condition:
 uint16(0) == 0x5a4d and filesize < 1000KB and
-( pe.imphash() == "1b1b73382580c4be6fa24e8297e1849d" or ( 1 of ($x*) or all of them ) )
+( pe.imphash() == "1b1b73382580c4be6fa24e8297e1849d" and ( 1 of ($x*) or all of them ) )
 }
 
 rule advanced_ip_scanner {
@@ -139,7 +139,7 @@ $s19 = "UAWAVAUATVWSH" fullword ascii
 $s20 = "AWAVAUATVWUSH" fullword ascii
 condition:
 uint16(0) == 0x5a4d and filesize < 1000KB and
-( pe.imphash() == "e2450fb3cc5b1b7305e3193fe03f3369" or ( 1 of ($x*) or all of them ) )
+( pe.imphash() == "e2450fb3cc5b1b7305e3193fe03f3369" and ( 1 of ($x*) or all of them ) )
 }
 
 rule anchorDNS_x64 {
@@ -172,7 +172,7 @@ $s19 = "UAWAVAUATVWSH" fullword ascii
 $s20 = "AWAVAUATVWUSH" fullword ascii
 condition:
 uint16(0) == 0x5a4d and filesize < 1000KB and
-( pe.imphash() == "e2450fb3cc5b1b7305e3193fe03f3369" or ( 1 of ($x*) or all of them ) )
+( pe.imphash() == "e2450fb3cc5b1b7305e3193fe03f3369" and ( 1 of ($x*) or all of them ) )
 }
 
 rule anchorAsjuster_x64 {
@@ -205,5 +205,5 @@ $s19 = "protocol not supported" fullword ascii /* Goodware String - occured 568 
 $s20 = "connection aborted" fullword ascii /* Goodware String - occured 568 times */
 condition:
 uint16(0) == 0x5a4d and filesize < 700KB and
-( pe.imphash() == "9859b7a32d1227be2ca925c81ae9265e" or all of them )
+( pe.imphash() == "9859b7a32d1227be2ca925c81ae9265e" and all of them )
 }
