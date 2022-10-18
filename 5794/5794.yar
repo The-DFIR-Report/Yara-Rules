@@ -37,7 +37,7 @@ rule mal_host2_143 {
       $s20 = "tProcessIdGetSystemDirectoryWGetTokenInformationWaitForSingleObjectadjusttimers: bad pbad file descriptorbad notifyList sizebad " ascii
    condition:
       uint16(0) == 0x5a4d and filesize < 4000KB and
-      1 of ($x*) and all of them
+      1 of ($x*) and 12 of them
 }
 
 rule mal_host1_D8B3 {
