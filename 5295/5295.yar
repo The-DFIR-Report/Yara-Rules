@@ -161,7 +161,7 @@ rule __case_5295_GAS {
       $s20 = "The instruction at 0x00000000 referenced memory " fullword ascii 
    condition: 
       uint16(0) == 0x5a4d and filesize < 200KB and 
-      8 of them 
+      all of them 
 } 
 
 
