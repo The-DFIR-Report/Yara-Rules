@@ -73,7 +73,7 @@ $s19 = "gromyko" fullword ascii
 $s20 = "api-ms-win-appmodel-runtime-l1-1-2" fullword wide
 condition:
 uint16(0) == 0x5a4d and filesize < 1000KB and
-( pe.imphash() == "1b1b73382580c4be6fa24e8297e1849d" or ( 1 of ($x*) or 4 of them ) )
+( pe.imphash() == "1b1b73382580c4be6fa24e8297e1849d" or ( 1 of ($x*) or 8 of them ) )
 }
 
 rule advanced_ip_scanner {
@@ -106,7 +106,7 @@ $s19 = "</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:8.
 $s20 = "<a href=\"http://www.radmin.com\">www.radmin.com</a>" fullword wide
 condition:
 uint16(0) == 0x5a4d and filesize < 5000KB and
-( pe.imphash() == "a3bc8eb6ac4320e91b7faf1e81af2bbf" or ( 1 of ($x*) or 4 of them ) )
+( pe.imphash() == "a3bc8eb6ac4320e91b7faf1e81af2bbf" or ( 1 of ($x*) or 8 of them ) )
 }
 
 rule anchor_x64 {
@@ -139,7 +139,7 @@ $s19 = "UAWAVAUATVWSH" fullword ascii
 $s20 = "AWAVAUATVWUSH" fullword ascii
 condition:
 uint16(0) == 0x5a4d and filesize < 1000KB and
-( pe.imphash() == "e2450fb3cc5b1b7305e3193fe03f3369" or ( 1 of ($x*) or 4 of them ) )
+( pe.imphash() == "e2450fb3cc5b1b7305e3193fe03f3369" or ( 1 of ($x*) or 8 of them ) )
 }
 
 rule anchorDNS_x64 {
@@ -172,7 +172,7 @@ $s19 = "UAWAVAUATVWSH" fullword ascii
 $s20 = "AWAVAUATVWUSH" fullword ascii
 condition:
 uint16(0) == 0x5a4d and filesize < 1000KB and
-( pe.imphash() == "e2450fb3cc5b1b7305e3193fe03f3369" or ( 1 of ($x*) or 4 of them ) )
+( pe.imphash() == "e2450fb3cc5b1b7305e3193fe03f3369" or ( 1 of ($x*) or 8 of them ) )
 }
 
 rule anchorAsjuster_x64 {
@@ -205,5 +205,5 @@ $s19 = "protocol not supported" fullword ascii /* Goodware String - occured 568 
 $s20 = "connection aborted" fullword ascii /* Goodware String - occured 568 times */
 condition:
 uint16(0) == 0x5a4d and filesize < 700KB and
-( pe.imphash() == "9859b7a32d1227be2ca925c81ae9265e" or 8 of them )
+( pe.imphash() == "9859b7a32d1227be2ca925c81ae9265e" or 12 of them )
 }
