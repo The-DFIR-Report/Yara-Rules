@@ -84,7 +84,6 @@ reference = "https://thedfirreport.com"
 date = "2021-02-22"
 hash1 = "722fff8f38197d1449df500ae31a95bb34a6ddaba56834b13eaaff2b0f9f1c8b"
 strings:
-$x1 = "<assembly xmlns=\"urn:schemas-microsoft-com:asm.v1\" manifestVersion=\"1.0\" xmlns:asmv3=\"urn:schemas-microsoft-com:asm.v3\"><t" ascii
 $s2 = "fo xmlns=\"urn:schemas-microsoft-com:asm.v3\"><security><requestedPrivileges><requestedExecutionLevel level=\"asInvoker\" uiAcce" ascii
 $s3 = "Executable files (*.exe)" fullword ascii
 $s4 = "0RolUpdater.dll" fullword wide
@@ -106,7 +105,7 @@ $s19 = "</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:8.
 $s20 = "<a href=\"http://www.radmin.com\">www.radmin.com</a>" fullword wide
 condition:
 uint16(0) == 0x5a4d and filesize < 5000KB and
-( pe.imphash() == "a3bc8eb6ac4320e91b7faf1e81af2bbf" or ( 1 of ($x*) or 8 of them ) )
+( pe.imphash() == "a3bc8eb6ac4320e91b7faf1e81af2bbf" and 8 of them )
 }
 
 rule anchor_x64 {
