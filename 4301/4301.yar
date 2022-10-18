@@ -50,7 +50,6 @@ description = "Cobalt Strike Shellcode"
 author = "The DFIR Report" 
 reference = "https://thedfirreport.com" 
 date = "2021-06-23" 
-hash = "7b2144f2b5d722a1a8a0c47a43ecaf029b434bfb34a5cffe651fda2adf401131" 
 
 strings: 
 
