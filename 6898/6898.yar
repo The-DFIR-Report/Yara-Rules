@@ -137,5 +137,5 @@ rule sig_6898_dcrypt {
       $s20 = "* AVz'" fullword ascii
    condition:
       uint16(0) == 0x5a4d and filesize < 5000KB and
-      ( pe.imphash() == "48aa5c8931746a9655524f67b25a47ef" and 8 of them )
+      ( pe.imphash() == "48aa5c8931746a9655524f67b25a47ef" and 15 of them )
 }
