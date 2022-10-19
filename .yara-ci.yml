@@ -1,0 +1,11 @@
+branches:
+  accept:
+  - "**"
+files:
+  accept:
+  - "**.yar"
+  - "**.yara"
+false_positives:
+  ignore:
+   - rule: "sig_6898_dcrypt"
+   - rule: "unlocker"
