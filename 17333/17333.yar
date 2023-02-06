@@ -3,7 +3,7 @@
    Author: The DFIR Report
    Date: 2023-02-03
    Identifier: 17333
-   Reference: https://thedfirreport.com
+   Reference: https://thedfirreport.com/2023/02/06/collect-exfiltrate-sleep-repeat/
 */
 
 /* Rule Set ----------------------------------------------------------------- */
@@ -14,7 +14,7 @@ rule sig_17333_readkey {
    meta:
       description = "17333 - file readkey.ps1"
       author = "The DFIR Report"
-      reference = "https://thedfirreport.com"
+      reference = "https://thedfirreport.com/2023/02/06/collect-exfiltrate-sleep-repeat/"
       date = "2023-02-03"
       hash1 = "eb2a94ee29d902c8a13571ea472c80f05cfab8ba4ef80d92e333372f4c7191f4"
    strings:
@@ -42,7 +42,7 @@ rule sig_17333_Script {
    meta:
       description = "17333 - file Script.ps1"
       author = "The DFIR Report"
-      reference = "https://thedfirreport.com"
+      reference = "https://thedfirreport.com/2023/02/06/collect-exfiltrate-sleep-repeat/"
       date = "2023-02-03"
       hash1 = "bda4484bb6325dfccaa464c2007a8f20130f0cf359a7f79e14feeab3faa62332"
    strings:
@@ -75,7 +75,7 @@ rule sig_17333_temp {
    meta:
       description = "17333 - file temp.ps1"
       author = "The DFIR Report"
-      reference = "https://thedfirreport.com"
+      reference = "https://thedfirreport.com/2023/02/06/collect-exfiltrate-sleep-repeat/"
       date = "2023-02-03"
       hash1 = "16007ea6ae7ce797451baec2132e30564a29ee0bf8a8f05828ad2289b3690f55"
    strings:
@@ -108,7 +108,7 @@ rule sig_17333_Updater {
    meta:
       description = "17333 - file Updater.vbs"
       author = "The DFIR Report"
-      reference = "https://thedfirreport.com"
+      reference = "https://thedfirreport.com/2023/02/06/collect-exfiltrate-sleep-repeat/"
       date = "2023-02-03"
       hash1 = "be0e75d50565506baa1ce24301b702989ebe244b3a1d248ee5ea499ba812d698"
    strings:
@@ -141,7 +141,7 @@ rule sig_17333_module {
    meta:
       description = "17333 - file module.ahk"
       author = "The DFIR Report"
-      reference = "https://thedfirreport.com"
+      reference = "https://thedfirreport.com/2023/02/06/collect-exfiltrate-sleep-repeat/"
       date = "2023-02-03"
       hash1 = "e4b2411286d32e6c6d3d7abffc70d296c814e837ef14f096c829bf07edd45180"
    strings:
@@ -173,7 +173,7 @@ rule sig_17333_t {
    meta:
       description = "17333 - file t.xml"
       author = "The DFIR Report"
-      reference = "https://thedfirreport.com"
+      reference = "https://thedfirreport.com/2023/02/06/collect-exfiltrate-sleep-repeat/"
       date = "2023-02-03"
       hash1 = "7ae52c0562755f909d5d79c81bb99ee2403f2c2ee4d53fd1ba7692c8053a63f6"
    strings:
@@ -206,7 +206,7 @@ rule sig_17333_sc {
    meta:
       description = "17333 - file sc.ps1"
       author = "The DFIR Report"
-      reference = "https://thedfirreport.com"
+      reference = "https://thedfirreport.com/2023/02/06/collect-exfiltrate-sleep-repeat/"
       date = "2023-02-03"
       hash1 = "ac933ffc337d13b276e6034d26cdec836f03d90cb6ac7af6e11c045eeae8cc05"
    strings:
@@ -242,7 +242,7 @@ rule sig_17333_Script_temp {
    meta:
       description = "17333 - from files Script.ps1, temp.ps1"
       author = "The DFIR Report"
-      reference = "https://thedfirreport.com"
+      reference = "https://thedfirreport.com/2023/02/06/collect-exfiltrate-sleep-repeat/"
       date = "2023-02-03"
       hash1 = "bda4484bb6325dfccaa464c2007a8f20130f0cf359a7f79e14feeab3faa62332"
       hash2 = "16007ea6ae7ce797451baec2132e30564a29ee0bf8a8f05828ad2289b3690f55"
