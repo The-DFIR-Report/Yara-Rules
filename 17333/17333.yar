@@ -2,7 +2,7 @@
    YARA Rule Set
    Author: The DFIR Report
    Date: 2023-02-03
-   Identifier: 17333
+   Identifier: Case 17333
    Reference: https://thedfirreport.com/2023/02/06/collect-exfiltrate-sleep-repeat/
 */
 
