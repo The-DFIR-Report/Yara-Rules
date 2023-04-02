@@ -3,8 +3,8 @@ rule Locker_32
   meta:
       description = "Locker_32.dll"
       author = "_pete_0, TheDFIRReport"
-      reference = ""
-      date = "2023-03-08"
+      reference = "https://thedfirreport.com/2023/04/03/malicious-iso-file-leads-to-domain-wide-ransomware"
+      date = "2023-04-02"
       hash1 = "A378B8E9173F4A5469E7B5105BE40723AF29CBD6EE00D3B13FF437DAE4514DFF"
 
   strings:
@@ -22,8 +22,8 @@ rule ADGet
   meta:
       description = "ADGet.exe"
       author = "_pete_0, TheDFIRReport"
-      reference = ""
-      date = "2023-03-08"
+      reference = "https://thedfirreport.com/2023/04/03/malicious-iso-file-leads-to-domain-wide-ransomware"
+      date = "2023-04-02"
       hash1 = "FC4DA07183DE876A2B8ED1B35EC1E2657400DA9D99A313452162399C519DBFC6"
 
   strings:
