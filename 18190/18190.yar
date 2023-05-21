@@ -76,7 +76,7 @@ rule case_18190_nokoyawa_k {
 }
 
 
-rule case_18100_icedid_7030270 {
+rule case_18190_icedid_7030270 {
    meta:
       description = "18190 - file 7030270"
       author = "The DFIR Report"
