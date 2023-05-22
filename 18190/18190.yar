@@ -3,7 +3,7 @@
    Author: The DFIR Report
    Date: 2023-05-21
    Identifier: Case 18190
-   Reference: https://thedfirreport.com
+   Reference: https://thedfirreport.com/2023/05/22/icedid-macro-ends-in-nokoyawa-ransomware/
 */
 
 /* Rule Set ----------------------------------------------------------------- */
@@ -13,7 +13,7 @@ rule case_18190_1_beacon {
    meta:
       description = "18190 - file 1.dll"
       author = "The DFIR Report"
-      reference = "https://thedfirreport.com"
+      reference = "https://thedfirreport.com/2023/05/22/icedid-macro-ends-in-nokoyawa-ransomware/"
       date = "2023-05-21"
       hash1 = "d3db55cd5677b176eb837a536b53ed8c5eabbfd68f64b88dd083dc9ce9ffb64e"
    strings:
@@ -46,7 +46,7 @@ rule case_18190_nokoyawa_k {
    meta:
       description = "18190 - file k.exe"
       author = "The DFIR Report"
-      reference = "https://thedfirreport.com"
+      reference = "https://thedfirreport.com/2023/05/22/icedid-macro-ends-in-nokoyawa-ransomware/"
       date = "2023-05-21"
       hash1 = "7095beafff5837070a89407c1bf3c6acf8221ed786e0697f6c578d4c3de0efd6"
    strings:
@@ -80,7 +80,7 @@ rule case_18190_icedid_7030270 {
    meta:
       description = "18190 - file 7030270"
       author = "The DFIR Report"
-      reference = "https://thedfirreport.com"
+      reference = "https://thedfirreport.com/2023/05/22/icedid-macro-ends-in-nokoyawa-ransomware/"
       date = "2023-05-21"
       hash1 = "091886c95ca946aedee24b7c751b5067c5ac875923caba4d3cc9d961efadb65d"
    strings:
