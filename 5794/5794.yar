@@ -166,7 +166,7 @@ rule unlocker {
       $s20 = "/DIR=\"x:\\dirname\"" fullword wide
    condition:
       uint16(0) == 0x5a4d and filesize < 7000KB and
-      8 of them
+      all of them
 }
 
 rule mal_host2_locker {
