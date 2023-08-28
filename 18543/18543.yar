@@ -2,8 +2,8 @@ rule case_18543_p_bat {
    meta:
       description = "18543 - file p.bat"
       author = "The DFIR Report via yarGen Rule Generator"
-      reference = "https://thedfirreport.com"
-      date = "2023-07-08"
+      reference = "https://thedfirreport.com/2023/08/28/html-smuggling-leads-to-domain-wide-ransomware/"
+      date = "2023-08-28"
       hash1 = "e351ba5e50743215e8e99b5f260671ca8766886f69d84eabb83e99d55884bc2f"
    strings:
       $x1 = "c:\\windows\\temp\\k.exe --config eyJFWFRFTlNJT04iOiAiQVdBWU9LT04iLCAiTk9URV9OQU1FIjogIkFXQVlPS09OLXJlYWRtZS50eHQiLCAiTk9URV9DT0" ascii
@@ -31,8 +31,8 @@ rule case_18543_templates544_png {
    meta:
       description = "18543 - file templates544.png"
       author = "The DFIR Report via yarGen Rule Generator"
-      reference = "https://thedfirreport.com"
-      date = "2023-07-08"
+      reference = "https://thedfirreport.com/2023/08/28/html-smuggling-leads-to-domain-wide-ransomware/"
+      date = "2023-08-28"
       hash1 = "e71772b0518fa9bc6dddd370de2d6b0869671264591d377cdad703fa5a75c338"
    strings:
       $x1 = "4824f22e643acc46f9b34cb07203c39b750ddd3b6d8887925378801bcd980125a330351438e25a5f1c20ca50dfd0018b8b580a56e94136de69f1c4578a26ab61" ascii
@@ -64,8 +64,8 @@ rule case_18543_eightc11812d_65fd_48ee_b650_296122a21067_zip {
    meta:
       description = "18543 - file 8c11812d-65fd-48ee-b650-296122a21067.zip"
       author = "The DFIR Report via yarGen Rule Generator"
-      reference = "https://thedfirreport.com"
-      date = "2023-07-08"
+      reference = "https://thedfirreport.com/2023/08/28/html-smuggling-leads-to-domain-wide-ransomware/"
+      date = "2023-08-28"
       hash1 = "be604dc018712b1b1a0802f4ec5a35b29aab839f86343fc4b6f2cb784d58f901"
    strings:
       $s1 = "OkskyF6" fullword ascii
@@ -97,8 +97,8 @@ rule case_18543_demurest_cmd {
    meta:
       description = "18543 - file demurest.cmd"
       author = "The DFIR Report via yarGen Rule Generator"
-      reference = "https://thedfirreport.com"
-      date = "2023-07-08"
+      reference = "https://thedfirreport.com/2023/08/28/html-smuggling-leads-to-domain-wide-ransomware/"
+      date = "2023-08-28"
       hash1 = "364d346da8e398a89d3542600cbc72984b857df3d20a6dc37879f14e5e173522"
    strings:
       $x1 = "echo f|xcopy %SystemRoot%\\system32\\%x1%%x2%%x3%.exe %temp%\\entails.exe /h /s /e" fullword ascii
@@ -126,8 +126,8 @@ rule case_18543_documents_9771_lnk {
    meta:
       description = "18543 - file documents-9771.lnk"
       author = "The DFIR Report via yarGen Rule Generator"
-      reference = "https://thedfirreport.com"
-      date = "2023-07-08"
+      reference = "https://thedfirreport.com/2023/08/28/html-smuggling-leads-to-domain-wide-ransomware/"
+      date = "2023-08-28"
       hash1 = "57842fe8723ed6ebdf7fc17fc341909ad05a7a4feec8bdb5e062882da29fa1a8"
    strings:
       $s1 = "C:\\Program Files\\Windows Photo Viewer\\PhotoViewer.dll" fullword wide
@@ -146,8 +146,8 @@ rule case_18543_pimpliest_kufic_png {
    meta:
       description = "18543 - file pimpliest_kufic.png"
       author = "The DFIR Report via yarGen Rule Generator"
-      reference = "https://thedfirreport.com"
-      date = "2023-07-08"
+      reference = "https://thedfirreport.com/2023/08/28/html-smuggling-leads-to-domain-wide-ransomware/"
+      date = "2023-08-28"
       hash1 = "c6294ebb7d2540ee7064c60d361afb54f637370287983c7e5e1e46115613169a"
    strings:
       $s1 = "rrr---" fullword ascii /* reversed goodware string '---rrr' */
@@ -179,8 +179,8 @@ rule case_18543_redacted_invoice_10_31_22_html {
    meta:
       description = "18543 - file redacted-invoice-10.31.22.html"
       author = "The DFIR Report via yarGen Rule Generator"
-      reference = "https://thedfirreport.com"
-      date = "2023-07-08"
+      reference = "https://thedfirreport.com/2023/08/28/html-smuggling-leads-to-domain-wide-ransomware/"
+      date = "2023-09-28"
       hash1 = "31cd7f14a9b945164e0f216c2d540ac87279b6c8befaba1f0813fbad5252248b"
    strings:
       $x1 = "window[\"BFarxuKywq\"] = 'UEsDBBQACwAIAOxsX1VI/SBLoXQDAAAICwASABwAZG9jdW1lbnQtMzUwNjguaXNvVVQJAAP8wV9j/MFfY3V4CwABBDAAAAAEMAAAAJ" ascii
