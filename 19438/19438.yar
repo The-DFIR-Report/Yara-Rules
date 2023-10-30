@@ -3,7 +3,7 @@
    Author: The DFIR Report
    Date: 2023-10-29
    Identifier: Case 19438
-   Reference: https://thedfirreport.com
+   Reference: https://thedfirreport.com/2023/10/30/netsupport-intrusion-results-in-domain-compromise
 */
 
 /* Rule Set ----------------------------------------------------------------- */
@@ -12,7 +12,7 @@ rule case_19438_files_MalFiles_2326 {
    meta:
       description = "19438 - file 2326.js"
       author = "The DFIR Report"
-      reference = "https://thedfirreport.com"
+      reference = "https://thedfirreport.com/2023/10/30/netsupport-intrusion-results-in-domain-compromise"
       date = "2023-10-29"
       hash1 = "b1f52abc28427c5a42a70db9a77163dde648348e715f59e8a335c7252ae4a032"
    strings:
@@ -45,7 +45,7 @@ rule client32 {
    meta:
       description = "19438 - file client32.ini"
       author = "The DFIR Report"
-      reference = "https://thedfirreport.com"
+      reference = "https://thedfirreport.com/2023/10/30/netsupport-intrusion-results-in-domain-compromise"
       date = "2023-10-29"
       hash1 = "bba34ad7183d7911f7f2c53bfe912d315d0e44d7aa0572963dc003d063130e85"
    strings:
@@ -78,7 +78,7 @@ rule client32u {
    meta:
       description = "19438 - file client32u.ini"
       author = "The DFIR Report"
-      reference = "https://thedfirreport.com"
+      reference = "https://thedfirreport.com/2023/10/30/netsupport-intrusion-results-in-domain-compromise"
       date = "2023-10-29"
       hash1 = "aa92645428fb4c4e2cccbdf9b6acd7e6a51eecc2d6d63d7b8fe2e119e93c2bb5"
    strings:
@@ -111,7 +111,7 @@ rule case_19438_files_MalFiles_NSM {
    meta:
       description = "19438 - file NSM.LIC"
       author = "The DFIR Report"
-      reference = "https://thedfirreport.com"
+      reference = "https://thedfirreport.com/2023/10/30/netsupport-intrusion-results-in-domain-compromise"
       date = "2023-10-29"
       hash1 = "dc6a52ad6d637eb407cc060e98dfeedcca1167e7f62688fb1c18580dd1d05747"
    strings:
@@ -135,7 +135,7 @@ rule case_19438_files_MalFiles_NSM_2 {
    meta:
       description = "19438 - file NSM.ini"
       author = "The DFIR Report"
-      reference = "https://thedfirreport.com"
+      reference = "https://thedfirreport.com/2023/10/30/netsupport-intrusion-results-in-domain-compromise"
       date = "2023-10-29"
       hash1 = "60fe386112ad51f40a1ee9e1b15eca802ced174d7055341c491dee06780b3f92"
    strings:
@@ -168,7 +168,7 @@ rule case_19438_files_MalFiles_HTCTL32 {
    meta:
       description = "19438 - file HTCTL32.DLL"
       author = "The DFIR Report"
-      reference = "https://thedfirreport.com"
+      reference = "https://thedfirreport.com/2023/10/30/netsupport-intrusion-results-in-domain-compromise"
       date = "2023-10-29"
       hash1 = "3c072532bf7674d0c5154d4d22a9d9c0173530c0d00f69911cdbc2552175d899"
    strings:
@@ -202,7 +202,7 @@ rule case_19438_files_MalFiles_PCICL32 {
    meta:
       description = "19438 - file PCICL32.DLL"
       author = "The DFIR Report"
-      reference = "https://thedfirreport.com"
+      reference = "https://thedfirreport.com/2023/10/30/netsupport-intrusion-results-in-domain-compromise"
       date = "2023-10-29"
       hash1 = "38684adb2183bf320eb308a96cdbde8d1d56740166c3e2596161f42a40fa32d5"
    strings:
@@ -235,7 +235,7 @@ rule remcmdstub {
    meta:
       description = "19438 - file remcmdstub.exe"
       author = "The DFIR Report"
-      reference = "https://thedfirreport.com"
+      reference = "https://thedfirreport.com/2023/10/30/netsupport-intrusion-results-in-domain-compromise"
       date = "2023-10-29"
       hash1 = "fedd609a16c717db9bea3072bed41e79b564c4bc97f959208bfa52fb3c9fa814"
    strings:
@@ -268,7 +268,7 @@ rule case_19438_files_MalFiles_TCCTL32 {
    meta:
       description = "19438 - file TCCTL32.DLL"
       author = "The DFIR Report"
-      reference = "https://thedfirreport.com"
+      reference = "https://thedfirreport.com/2023/10/30/netsupport-intrusion-results-in-domain-compromise"
       date = "2023-10-29"
       hash1 = "2b92ea2a7d2be8d64c84ea71614d0007c12d6075756313d61ddc40e4c4dd910e"
    strings:
@@ -301,7 +301,7 @@ rule case_19438_files_MalFiles_pcicapi {
    meta:
       description = "19438 - file pcicapi.dll"
       author = "The DFIR Report"
-      reference = "https://thedfirreport.com"
+      reference = "https://thedfirreport.com/2023/10/30/netsupport-intrusion-results-in-domain-compromise"
       date = "2023-10-29"
       hash1 = "2d6c6200508c0797e6542b195c999f3485c4ef76551aa3c65016587788ba1703"
    strings:
@@ -334,7 +334,7 @@ rule case_19438_files_MalFiles_mswow86 {
    meta:
       description = "19438 - file mswow86.exe"
       author = "The DFIR Report"
-      reference = "https://thedfirreport.com"
+      reference = "https://thedfirreport.com/2023/10/30/netsupport-intrusion-results-in-domain-compromise"
       date = "2023-10-29"
       hash1 = "4d24b359176389301c14a92607b5c26b8490c41e7e3a2abbc87510d1376f4a87"
    strings:
@@ -367,7 +367,7 @@ rule case_19438_files_MalFiles_PCICHEK {
    meta:
       description = "19438 - file PCICHEK.DLL"
       author = "The DFIR Report"
-      reference = "https://thedfirreport.com"
+      reference = "https://thedfirreport.com/2023/10/30/netsupport-intrusion-results-in-domain-compromise"
       date = "2023-10-29"
       hash1 = "956b9fa960f913cce3137089c601f3c64cc24c54614b02bba62abb9610a985dd"
    strings:
@@ -400,7 +400,7 @@ rule pth_addadmin {
    meta:
       description = "19438 - file pth_addadmin.exe"
       author = "The DFIR Report"
-      reference = "https://thedfirreport.com"
+      reference = "https://thedfirreport.com/2023/10/30/netsupport-intrusion-results-in-domain-compromise"
       date = "2023-10-29"
       hash1 = "3bee705c062227dcb2d109bf62ab043c68ba3fb53b1ce679dc138273ba884b08"
    strings:
@@ -433,7 +433,7 @@ rule pth_createuser {
    meta:
       description = "19438 - file pth_createuser.exe"
       author = "The DFIR Report"
-      reference = "https://thedfirreport.com"
+      reference = "https://thedfirreport.com/2023/10/30/netsupport-intrusion-results-in-domain-compromise"
       date = "2023-10-29"
       hash1 = "e42620721f5ec455a63cded483d18dfa5abdabca3319b0a4e3e21bd098348d48"
    strings:
@@ -467,7 +467,7 @@ rule case_19438_files_MalFiles_install {
    meta:
       description = "19438 - file install.bat"
       author = "The DFIR Report"
-      reference = "https://thedfirreport.com"
+      reference = "https://thedfirreport.com/2023/10/30/netsupport-intrusion-results-in-domain-compromise"
       date = "2023-10-29"
       hash1 = "041b0504742449c7c23750490b73bc71e5c726ad7878d05a73439bd29c7d1d19"
    strings:
@@ -492,7 +492,7 @@ rule nskbfltr {
    meta:
       description = "19438 - file nskbfltr.inf"
       author = "The DFIR Report"
-      reference = "https://thedfirreport.com"
+      reference = "https://thedfirreport.com/2023/10/30/netsupport-intrusion-results-in-domain-compromise"
       date = "2023-10-29"
       hash1 = "d96856cd944a9f1587907cacef974c0248b7f4210f1689c1e6bcac5fed289368"
    strings:
@@ -515,7 +515,7 @@ rule case_19438_files_MalFiles_ntds {
    meta:
       description = "19438 - file ntds.bat"
       author = "The DFIR Report"
-      reference = "https://thedfirreport.com"
+      reference = "https://thedfirreport.com/2023/10/30/netsupport-intrusion-results-in-domain-compromise"
       date = "2023-10-29"
       hash1 = "060e9ff09cd97ec6a1b614dcc1de50f4d669154f59d78df36e2c4972c2535714"
    strings:
@@ -529,7 +529,7 @@ rule case_19438_files_MalFiles_start {
    meta:
       description = "19438 - file start.bat"
       author = "The DFIR Report"
-      reference = "https://thedfirreport.com"
+      reference = "https://thedfirreport.com/2023/10/30/netsupport-intrusion-results-in-domain-compromise"
       date = "2023-10-29"
       hash1 = "4c0736c9a19c2e172bb504556f7006fa547093b79a0a7e170e6412f98137e7cd"
    strings:
@@ -539,349 +539,4 @@ rule case_19438_files_MalFiles_start {
       uint16(0) == 0x6463 and filesize < 1KB and
       all of them
 }
-
-/* Super Rules ------------------------------------------------------------- */
-
-rule _pth_addadmin_pth_createuser_0 {
-   meta:
-      description = "19438 - from files pth_addadmin.exe, pth_createuser.exe"
-      author = "The DFIR Report"
-      reference = "https://thedfirreport.com"
-      date = "2023-10-29"
-      hash1 = "3bee705c062227dcb2d109bf62ab043c68ba3fb53b1ce679dc138273ba884b08"
-      hash2 = "e42620721f5ec455a63cded483d18dfa5abdabca3319b0a4e3e21bd098348d48"
-   strings:
-      $s1 = "@[+] Command executed" fullword ascii
-      $s2 = "33333337333333" ascii /* reversed goodware string '33333373333333' */ /* hex encoded string '3337333' */
-      $s3 = "@Command executed with service" fullword ascii
-      $s4 = "SMBExecCommandLengthBytes__OOZOOZ85sersZ65dministratorZOnimbleZpkgsZ83776669xec4549O48O48Z83776669xecZ69xec83tages_56" fullword ascii
-      $s5 = "SMBExecCommandBytes__OOZOOZ85sersZ65dministratorZOnimbleZpkgsZ83776669xec4549O48O48Z83776669xecZ69xec83tages_55" fullword ascii
-      $s6 = "SMBExecCommand__OOZOOZ85sersZ65dministratorZOnimbleZpkgsZ83776669xec4549O48O48Z83776669xecZ69xec83tages_54" fullword ascii
-      $s7 = "@m..@s..@sUsers@sAdministrator@s.nimble@spkgs@sSMBExec-1.0.0@sSMBExec@sSMBv2.nim.c" fullword ascii
-      $s8 = "@m..@s..@sUsers@sAdministrator@s.nimble@spkgs@sSMBExec-1.0.0@sSMBExec@sSMBv2Helper.nim.c" fullword ascii
-      $s9 = "@m..@s..@sUsers@sAdministrator@s.nimble@spkgs@sSMBExec-1.0.0@sSMBExec@sSCM.nim.c" fullword ascii
-      $s10 = "@The user does not have Service Control Manager write privilege on the target" fullword ascii
-      $s11 = "@m..@s..@sUsers@sAdministrator@s.nimble@spkgs@sSMBExec-1.0.0@sSMBExec@sExecStages.nim.c" fullword ascii
-      $s12 = "@m..@s..@sUsers@sAdministrator@s.nimble@spkgs@sSMBExec-1.0.0@sSMBExec@sRPC.nim.c" fullword ascii
-      $s13 = "@Trying to execute command on the target" fullword ascii
-      $s14 = "@m..@s..@sUsers@sAdministrator@s.nimble@spkgs@sSMBExec-1.0.0@sSMBExec@sNTLM.nim.c" fullword ascii
-      $s15 = "@m..@s..@sUsers@sAdministrator@s.nimble@spkgs@sSMBExec-1.0.0@sSMBExec@sHelpUtil.nim.c" fullword ascii
-      $s16 = "@m..@s..@sUsers@sAdministrator@s.nimble@spkgs@sSMBExec-1.0.0@sSMBExec.nim.c" fullword ascii
-      $s17 = "@The user has Service Control Manager write privilege on the target" fullword ascii
-      $s18 = "@m..@s..@sUsers@sAdministrator@s.nimble@spkgs@sSMBExec-1.0.0@sSMBExec@sSMBv1.nim.c" fullword ascii
-      $s19 = "@Bcrypt.dll" fullword ascii
-      $s20 = "@Service creation failed on target" fullword ascii
-   condition:
-      ( uint16(0) == 0x5a4d and filesize < 2000KB and ( 8 of them )
-      ) or ( all of them )
-}
-
-
-rule _HTCTL32_PCICL32_TCCTL32_2 {
-   meta:
-      description = "19438 - from files HTCTL32.DLL, PCICL32.DLL, TCCTL32.DLL"
-      author = "The DFIR Report"
-      reference = "https://thedfirreport.com"
-      date = "2023-10-29"
-      hash1 = "3c072532bf7674d0c5154d4d22a9d9c0173530c0d00f69911cdbc2552175d899"
-      hash2 = "38684adb2183bf320eb308a96cdbde8d1d56740166c3e2596161f42a40fa32d5"
-      hash3 = "2b92ea2a7d2be8d64c84ea71614d0007c12d6075756313d61ddc40e4c4dd910e"
-   strings:
-      $s1 = "ctl_getsession" fullword ascii
-      $s2 = "e:\\nsmsrc\\nsm\\1210\\1210f\\ctl32\\NSMString.h" fullword ascii
-      $s3 = "nsChars.IsA()" fullword ascii
-      $s4 = "ctl_getlocalipaddressinuse" fullword ascii
-      $s5 = "ctl_openremote" fullword ascii
-      $s6 = "ctl_remotename" fullword ascii
-      $s7 = "iAt>=0 && iAt<Length()" fullword ascii
-      $s8 = "*CurrentUserName" fullword ascii
-      $s9 = "ctl_version" fullword ascii
-      $s10 = "ListenPort" fullword ascii
-      $s11 = "ctl_closeremote" fullword ascii
-      $s12 = "QueueThreadEvent" fullword ascii
-      $s13 = "str.IsA()" fullword ascii
-      $s14 = "lhs.IsA()" fullword ascii
-      $s15 = "rhs.IsA()" fullword ascii
-      $s16 = "ix>=0 && ix<=m_nLength" fullword ascii
-      $s17 = "NetSupport" fullword ascii
-      $s18 = "ctl_nsessions" fullword ascii
-      $s19 = "this->hReadyEvent" fullword ascii
-      $s20 = "pszSub!=NULL" fullword ascii
-   condition:
-      ( uint16(0) == 0x5a4d and filesize < 11000KB and ( 8 of them )
-      ) or ( all of them )
-}
-
-rule _PCICL32_TCCTL32_3 {
-   meta:
-      description = "19438 - from files PCICL32.DLL, TCCTL32.DLL"
-      author = "The DFIR Report"
-      reference = "https://thedfirreport.com"
-      date = "2023-10-29"
-      hash1 = "38684adb2183bf320eb308a96cdbde8d1d56740166c3e2596161f42a40fa32d5"
-      hash2 = "2b92ea2a7d2be8d64c84ea71614d0007c12d6075756313d61ddc40e4c4dd910e"
-   strings:
-      $s1 = "INETMIB1.DLL" fullword ascii
-      $s2 = "pGetHostByName" fullword ascii
-      $s3 = "pGetHostName" fullword ascii
-      $s4 = "dsSrc.IsA()" fullword ascii
-      $s5 = "e:\\nsmsrc\\nsm\\1210\\1210f\\ctl32\\DataStream.h" fullword ascii
-      $s6 = "m_iPos=%d, m_nLen=%d, m_nExt=%d, m_pData=%x {%s}" fullword ascii
-      $s7 = "pGetAdaptersInfo" fullword ascii
-      $s8 = "ctl_getcodepage" fullword ascii
-      $s9 = "!m_bReadOnly" fullword ascii
-      $s10 = "pntohl" fullword ascii
-      $s11 = "serial" fullword ascii /* Goodware String - occured 168 times */
-      $s12 = "listen" fullword ascii /* Goodware String - occured 304 times */
-      $s13 = "_nBy==SizeOf(serial)" fullword ascii
-      $s14 = "_nDim==1" fullword ascii
-      $s15 = "m_nLength>=nBytes" fullword ascii
-      $s16 = "pWSACleanup" fullword ascii
-      $s17 = "variant.vt & VT_ARRAY" fullword ascii
-      $s18 = "variant.vt==VT_BSTR || variant.vt==(VT_BSTR | VT_BYREF)" fullword ascii
-      $s19 = "nBytes>=0" fullword ascii
-      $s20 = "_Lower==0" fullword ascii
-   condition:
-      ( uint16(0) == 0x5a4d and filesize < 11000KB and ( 8 of them )
-      ) or ( all of them )
-}
-
-rule _HTCTL32_PCICL32_4 {
-   meta:
-      description = "19438 - from files HTCTL32.DLL, PCICL32.DLL"
-      author = "The DFIR Report"
-      reference = "https://thedfirreport.com"
-      date = "2023-10-29"
-      hash1 = "3c072532bf7674d0c5154d4d22a9d9c0173530c0d00f69911cdbc2552175d899"
-      hash2 = "38684adb2183bf320eb308a96cdbde8d1d56740166c3e2596161f42a40fa32d5"
-   strings:
-      $s1 = "ctl_getfailedreason" fullword ascii
-      $s2 = "ctl_getconnectivityinfo" fullword ascii
-      $s3 = "ctl_publishserviceex" fullword ascii
-      $s4 = "ctl_publishservice" fullword ascii
-      $s5 = "VIRTNET" fullword ascii
-      $s6 = "Gateway" fullword ascii /* Goodware String - occured 15 times */
-      $s7 = "CONNECT" fullword ascii /* Goodware String - occured 205 times */
-      $s8 = "ctl_controlsendpin" fullword ascii
-      $s9 = "WinInet.dll" fullword ascii /* Goodware String - occured 1 times */
-      $s10 = "ctl_controlpinrequest" fullword ascii
-      $s11 = "ctl_clearpin" fullword ascii
-      $s12 = "ctl_clientpinrequest" fullword ascii
-      $s13 = ";:u#QWj" fullword ascii /* Goodware String - occured 3 times */
-      $s14 = " iciNWq" fullword ascii
-      $s15 = "%02x%02x%02x%02x%02x%02x" fullword ascii /* Goodware String - occured 4 times */
-      $s16 = "PIN=%s" fullword ascii
-      $s17 = "dd-MMM-yy" fullword ascii
-   condition:
-      ( uint16(0) == 0x5a4d and filesize < 11000KB and ( 8 of them )
-      ) or ( all of them )
-}
-
-rule _mswow86_PCICL32_5 {
-   meta:
-      description = "19438 - from files mswow86.exe, PCICL32.DLL"
-      author = "The DFIR Report"
-      reference = "https://thedfirreport.com"
-      date = "2023-10-29"
-      hash1 = "4d24b359176389301c14a92607b5c26b8490c41e7e3a2abbc87510d1376f4a87"
-      hash2 = "38684adb2183bf320eb308a96cdbde8d1d56740166c3e2596161f42a40fa32d5"
-   strings:
-      $s1 = "PCICL32.dll" fullword ascii
-      $s2 = "7===>==>=>=>==>==>=>C" fullword ascii /* hex encoded string '|' */
-      $s3 = "7>=>>>>>>=>>>>>>>>>>E" fullword ascii /* hex encoded string '~' */
-      $s4 = "SLLQLOSL" fullword ascii
-      $s5 = "_NSMClient32@8" fullword ascii
-      $s6 = "TLDW*3S.*" fullword ascii
-      $s7 = "4-40400404040400404>" fullword ascii
-      $s8 = "omXY^]" fullword ascii
-      $s9 = "44-4040040040040404>" fullword ascii
-      $s10 = "4004040404004040" ascii
-      $s11 = "h'*x{6;" fullword ascii
-      $s12 = "./,/,////" fullword ascii
-      $s13 = "4-4-*j" fullword ascii
-      $s14 = "44404*(060040406)*4>" fullword ascii
-      $s15 = "4440*j" fullword ascii
-      $s16 = "4440040404040040400>" fullword ascii
-      $s17 = "1,+///*//" fullword ascii
-      $s18 = "4-40404040040040040=" fullword ascii
-      $s19 = "4004004040404004" ascii
-      $s20 = "4044004004" ascii
-   condition:
-      ( uint16(0) == 0x5a4d and filesize < 11000KB and ( 8 of them )
-      ) or ( all of them )
-}
-
-rule _HTCTL32_mswow86_pcicapi_PCICHEK_PCICL32_remcmdstub_TCCTL32_6 {
-   meta:
-      description = "19438 - from files HTCTL32.DLL, mswow86.exe, pcicapi.dll, PCICHEK.DLL, PCICL32.DLL, remcmdstub.exe, TCCTL32.DLL"
-      author = "The DFIR Report"
-      reference = "https://thedfirreport.com"
-      date = "2023-10-29"
-      hash1 = "3c072532bf7674d0c5154d4d22a9d9c0173530c0d00f69911cdbc2552175d899"
-      hash2 = "4d24b359176389301c14a92607b5c26b8490c41e7e3a2abbc87510d1376f4a87"
-      hash3 = "2d6c6200508c0797e6542b195c999f3485c4ef76551aa3c65016587788ba1703"
-      hash4 = "956b9fa960f913cce3137089c601f3c64cc24c54614b02bba62abb9610a985dd"
-      hash5 = "38684adb2183bf320eb308a96cdbde8d1d56740166c3e2596161f42a40fa32d5"
-      hash6 = "fedd609a16c717db9bea3072bed41e79b564c4bc97f959208bfa52fb3c9fa814"
-      hash7 = "2b92ea2a7d2be8d64c84ea71614d0007c12d6075756313d61ddc40e4c4dd910e"
-   strings:
-      $s1 = "NetSupport Ltd0" fullword ascii
-      $s2 = "NetSupport Ltd1" fullword ascii
-      $s3 = "NetSupport Ltd" fullword wide
-      $s4 = "Peterborough1" fullword ascii
-      $s5 = "190709184036" ascii
-      $s6 = "170921235959" ascii
-      $s7 = "231209235959" ascii
-      $s8 = "170921235959Z0o1" fullword ascii
-      $s9 = "V12.10" fullword wide
-      $s10 = "http://sv.symcb.com/sv.crl0f" fullword ascii /* Goodware String - occured 5 times */
-   condition:
-      ( uint16(0) == 0x5a4d and filesize < 11000KB and ( all of them )
-      ) or ( all of them )
-}
-
-rule _HTCTL32_pcicapi_PCICL32_TCCTL32_7 {
-   meta:
-      description = "19438 - from files HTCTL32.DLL, pcicapi.dll, PCICL32.DLL, TCCTL32.DLL"
-      author = "The DFIR Report"
-      reference = "https://thedfirreport.com"
-      date = "2023-10-29"
-      hash1 = "3c072532bf7674d0c5154d4d22a9d9c0173530c0d00f69911cdbc2552175d899"
-      hash2 = "2d6c6200508c0797e6542b195c999f3485c4ef76551aa3c65016587788ba1703"
-      hash3 = "38684adb2183bf320eb308a96cdbde8d1d56740166c3e2596161f42a40fa32d5"
-      hash4 = "2b92ea2a7d2be8d64c84ea71614d0007c12d6075756313d61ddc40e4c4dd910e"
-   strings:
-      $s1 = "Assert failed - " fullword ascii
-      $s2 = "Unhandled Exception (GPF) - " fullword ascii
-      $s3 = "NSMTraceGetConfigItem" fullword ascii
-      $s4 = "NSMTraceGetConfigInt" fullword ascii
-      $s5 = "File %hs, line %d%s%s" fullword ascii
-      $s6 = "NSMTraceReadConfigItemFromFile" fullword ascii
-      $s7 = "Assert, tid=%x%s" fullword ascii
-      $s8 = ", thread=%s" fullword ascii
-      $s9 = "Support\\" fullword ascii
-      $s10 = ", error code %u (x%x)" fullword ascii
-      $s11 = "NSMTRACE" fullword ascii
-      $s12 = "NSMTraceUnload" fullword ascii
-      $s13 = "Call Stack:" fullword ascii /* Goodware String - occured 1 times */
-      $s14 = "Unhandled Exception (GPF)" fullword ascii
-      $s15 = "%04d-%02d-%02d %02d:%02d:%02d.%03d, Win%s %d.%d" fullword ascii
-      $s16 = "NOT copied to disk" fullword ascii
-      $s17 = "NSMTraceSetModuleName" fullword ascii
-      $s18 = "vRealNSMTrace" fullword ascii
-      $s19 = "copied to %s" fullword ascii
-      $s20 = "Build: %hs (%.17hs)" fullword ascii
-   condition:
-      ( uint16(0) == 0x5a4d and filesize < 11000KB and ( 8 of them )
-      ) or ( all of them )
-}
-
-
-rule _HTCTL32_TCCTL32_9 {
-   meta:
-      description = "19438 - from files HTCTL32.DLL, TCCTL32.DLL"
-      author = "The DFIR Report"
-      reference = "https://thedfirreport.com"
-      date = "2023-10-29"
-      hash1 = "3c072532bf7674d0c5154d4d22a9d9c0173530c0d00f69911cdbc2552175d899"
-      hash2 = "2b92ea2a7d2be8d64c84ea71614d0007c12d6075756313d61ddc40e4c4dd910e"
-   strings:
-      $s1 = "Refcount.cpp" fullword ascii
-      $s2 = "nsSuffix.IsA()" fullword ascii
-      $s3 = "nsPrefix.IsA()" fullword ascii
-      $s4 = "NSMString.cpp" fullword ascii
-      $s5 = "TCREMOTE" fullword ascii
-      $s6 = "nsmtrace" fullword ascii
-      $s7 = "*ControlPort" fullword ascii
-      $s8 = "sv.hRecvThread" fullword ascii
-      $s9 = "Limit transmission speed to %d bps?" fullword ascii
-      $s10 = "sv.hRecvThreadReadyEvent" fullword ascii
-      $s11 = "DINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDING" fullword ascii
-      $s12 = "%s, Line %d" fullword ascii
-      $s13 = "TCBRIDGE" fullword ascii
-      $s14 = "Info. ctl_escape(%d, %x, %x, %x, %x)" fullword ascii
-      $s15 = "%s_L%d_%x" fullword ascii
-      $s16 = "VMWare" fullword wide /* Goodware String - occured 4 times */
-      $s17 = "pszDelims!=0" fullword ascii
-      $s18 = "NSMString" fullword ascii
-      $s19 = "*LineSpeed" fullword ascii
-      $s20 = "ta<;t]<[u*Fj]V" fullword ascii
-   condition:
-      ( uint16(0) == 0x5a4d and filesize < 1000KB and ( 8 of them )
-      ) or ( all of them )
-}
-
-rule _client32_client32u_10 {
-   meta:
-      description = "19438 - from files client32.ini, client32u.ini"
-      author = "The DFIR Report"
-      reference = "https://thedfirreport.com"
-      date = "2023-10-29"
-      hash1 = "bba34ad7183d7911f7f2c53bfe912d315d0e44d7aa0572963dc003d063130e85"
-      hash2 = "aa92645428fb4c4e2cccbdf9b6acd7e6a51eecc2d6d63d7b8fe2e119e93c2bb5"
-   strings:
-      $s1 = "ValidAddresses.TCP=*" fullword ascii
-      $s2 = "Filename=C:\\ProgramData\\SchCache\\client32u.ini" fullword ascii
-      $s3 = "SecondaryPort=133" fullword ascii
-      $s4 = "Port=133" fullword ascii
-      $s5 = "[HTTP]" fullword ascii
-      $s6 = "Protocols=2,3" fullword ascii
-      $s7 = "DisableChatMenu=1" fullword ascii
-      $s8 = "SKMode=1" fullword ascii
-      $s9 = "quiet=1" fullword ascii
-      $s10 = "DisableRequestHelp=1" fullword ascii
-      $s11 = "DisableChat=1" fullword ascii
-      $s12 = "HideWhenIdle=1" fullword ascii
-      $s13 = "DisableAudioFilter=1" fullword ascii
-      $s14 = "SysTray=0" fullword ascii
-      $s15 = "DisableReplayMenu=1" fullword ascii
-      $s16 = "DisableDisconnect=1" fullword ascii
-      $s17 = "[Client]" fullword ascii
-      $s18 = "_present=1" fullword ascii
-      $s19 = "DisableMessage=1" fullword ascii
-      $s20 = "DisableClientConnect=1" fullword ascii
-   condition:
-      ( uint16(0) == 0x7830 and filesize < 1KB and ( 8 of them )
-      ) or ( all of them )
-}
-
-rule _pcicapi_TCCTL32_11 {
-   meta:
-      description = "19438 - from files pcicapi.dll, TCCTL32.DLL"
-      author = "The DFIR Report"
-      reference = "https://thedfirreport.com"
-      date = "2023-10-29"
-      hash1 = "2d6c6200508c0797e6542b195c999f3485c4ef76551aa3c65016587788ba1703"
-      hash2 = "2b92ea2a7d2be8d64c84ea71614d0007c12d6075756313d61ddc40e4c4dd910e"
-   strings:
-      $s1 = "CapiRead" fullword ascii
-      $s2 = "CapiOpen2" fullword ascii
-      $s3 = "CapiConnected" fullword ascii
-      $s4 = "CapiSend" fullword ascii
-      $s5 = "CapiNotify" fullword ascii
-      $s6 = "CapiDial" fullword ascii
-   condition:
-      ( uint16(0) == 0x5a4d and filesize < 1000KB and ( all of them )
-      ) or ( all of them )
-}
-
-rule _PCICHEK_PCICL32_12 {
-   meta:
-      description = "19438 - from files PCICHEK.DLL, PCICL32.DLL"
-      author = "The DFIR Report"
-      reference = "https://thedfirreport.com"
-      date = "2023-10-29"
-      hash1 = "956b9fa960f913cce3137089c601f3c64cc24c54614b02bba62abb9610a985dd"
-      hash2 = "38684adb2183bf320eb308a96cdbde8d1d56740166c3e2596161f42a40fa32d5"
-   strings:
-      $s1 = "pcichek.dll" fullword ascii
-      $s2 = "CheckLicenseString" fullword ascii
-      $s3 = "serial_no" fullword ascii
-      $s4 = "FILLER" fullword wide
-      $s5 = "IsJPIK" fullword ascii
-   condition:
-      ( uint16(0) == 0x5a4d and filesize < 11000KB and ( all of them )
-      ) or ( all of them )
-}
-
 
