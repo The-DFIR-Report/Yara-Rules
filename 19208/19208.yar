@@ -2,7 +2,7 @@ rule yara_tor2mine {
    meta:
       description = "file java.exe"
       author = "TheDFIRReport"
-      reference = "https://thedfirreport.com/"
+      reference = "https://thedfirreport.com/2023/12/04/sql-brute-force-leads-to-bluesky-ransomware/"
       date = "2023-12-02"
       hash1 = "74b6d14e35ff51fe47e169e76b4732b9f157cd7e537a2ca587c58dbdb15c624f"
    strings:
@@ -35,7 +35,7 @@ rule yara_bluesky_ransomware {
    meta:
       description = "file vmware.exe"
       author = "TheDFIRReport"
-      reference = "https://thedfirreport.com/"
+      reference = "https://thedfirreport.com/2023/12/04/sql-brute-force-leads-to-bluesky-ransomware/"
       date = "2023-12-02"
       hash1 = "d4f4069b1c40a5b27ba0bc15c09dceb7035d054a022bb5d558850edfba0b9534"
    strings:
@@ -68,7 +68,7 @@ rule WinRing0x64 {
    meta:
       description = "file WinRing0x64.sys"
       author = "TheDFIRReport"
-      reference = "https://thedfirreport.com/"
+      reference = "https://thedfirreport.com/2023/12/04/sql-brute-force-leads-to-bluesky-ransomware/"
       date = "2023-12-02"
       hash1 = "11bd2c9f9e2397c9a16e0990e4ed2cf0679498fe0fd418a3dfdac60b5c160ee5"
    strings:
