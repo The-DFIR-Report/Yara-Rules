@@ -3,7 +3,7 @@
    Author: The DFIR Report
    Date: 2024-02-18
    Identifier: Case 19530
-   Reference: https://thedfirreport.com
+   Reference: https://thedfirreport.com/2024/02/26/seo-poisoning-to-domain-control-the-gootloader-saga-continues/
 */
 
 /* Rule Set ----------------------------------------------------------------- */
@@ -14,7 +14,7 @@ rule case_19530_implied_employment_agreement {
    meta:
       description = "file implied employment agreement 24230.js"
       author = "The DFIR Report"
-      reference = "https://thedfirreport.com"
+      reference = "https://thedfirreport.com/2024/02/26/seo-poisoning-to-domain-control-the-gootloader-saga-continues/"
       date = "2024-02-18"
       hash1 = "f94048917ac75709452040754bb3d1a0aff919f7c2b4b42c5163c7bdb1fbf346"
    strings:
@@ -47,7 +47,7 @@ rule case_19530_systembc_s5 {
    meta:
       description = "file s5.ps1"
       author = "The DFIR Report"
-      reference = "https://thedfirreport.com"
+      reference = "https://thedfirreport.com/2024/02/26/seo-poisoning-to-domain-control-the-gootloader-saga-continues/"
       date = "2024-02-18"
       hash1 = "49b75f4f00336967f4bd9cbccf49b7f04d466bf19be9a5dec40d0c753189ea16"
    strings:
@@ -80,7 +80,7 @@ rule case_19530_CS_beacon {
    meta:
       description = "file 5d78365.exe"
       author = "The DFIR Report"
-      reference = "https://thedfirreport.com"
+      reference = "https://thedfirreport.com/2024/02/26/seo-poisoning-to-domain-control-the-gootloader-saga-continues/"
       date = "2024-02-18"
       hash1 = "aad75498679aada9ee2179a8824291e3b4781d5683c2fa5b3ec92267ce4a4a33"
    strings:
