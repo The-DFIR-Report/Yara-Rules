@@ -2,8 +2,8 @@
    YARA Rule Set
    Author: TheDFIRReport
    Date: 2024-01-09
-   Identifier: 19772
-   Reference: https://thedfirreport.com
+   Identifier: Case 19772
+   Reference: https://thedfirreport.com/2024/04/01/from-onenote-to-ransomnote-an-ice-cold-intrusion
 */
 
 /* Rule Set ----------------------------------------------------------------- */
@@ -12,7 +12,7 @@ rule case_19772_csrss_cobalt_strike {
    meta:
       description = "19772 - file csrss.exe"
       author = "TheDFIRReport"
-      reference = "https://thedfirreport.com"
+      reference = "https://thedfirreport.com/2024/04/01/from-onenote-to-ransomnote-an-ice-cold-intrusion"
       date = "2024-01-09"
       hash1 = "06bbb36baf63bc5cb14d7f097745955a4854a62fa3acef4d80c61b4fa002c542"
    strings:
@@ -45,7 +45,7 @@ rule case_19772_svchost_nokoyawa_ransomware {
    meta:
       description = "19772 - file svchost.exe"
       author = "TheDFIRReport"
-      reference = "https://thedfirreport.com"
+      reference = "https://thedfirreport.com/2024/04/01/from-onenote-to-ransomnote-an-ice-cold-intrusion"
       date = "2024-01-09"
       hash1 = "3c9f4145e310f616bd5e36ca177a3f370edc13cf2d54bb87fe99972ecf3f09b4"
    strings:
@@ -78,7 +78,7 @@ rule case_19772_anydesk_id_tool {
    meta:
       description = "19772 - file GET_ID.bat"
       author = "TheDFIRReport"
-      reference = "https://thedfirreport.com"
+      reference = "https://thedfirreport.com/2024/04/01/from-onenote-to-ransomnote-an-ice-cold-intrusion"
       date = "2024-01-09"
       hash1 = "eae2bce6341ff7059b9382bfa0e0daa337ea9948dd729c0c1e1ee9c11c1c0068"
    strings:
@@ -93,7 +93,7 @@ rule case_19772_anydesk_installer {
    meta:
       description = "19772 - file INSTALL.ps1"
       author = "TheDFIRReport"
-      reference = "https://thedfirreport.com"
+      reference = "https://thedfirreport.com/2024/04/01/from-onenote-to-ransomnote-an-ice-cold-intrusion"
       date = "2024-01-09"
       hash1 = "b378c2aa759625de2ad1be2c4045381d7474b82df7eb47842dc194bb9a134f76"
    strings:
