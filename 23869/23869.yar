@@ -20,7 +20,7 @@ rule case_23869_sysfunc_cmd {
 		description = "File generated dynamically from awscollector.ps1"
 		category = "TOOL"
 		reference = "https://thedfirreport.com/"
-		hash = "f13da28befe1a88eeca3c8f682fdfc44dacdabb4399199528ba24588f2b6a40c"
+		hash = "f3b211c45090f371869c396716972429896e0427da55ce8f1981787c2ea7eb0b"
 
 	strings:
 		$s1 = "@echo off" fullword
