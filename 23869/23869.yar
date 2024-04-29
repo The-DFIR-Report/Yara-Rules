@@ -3,7 +3,7 @@ YARA Rule Set
 Author: The DFIR Report
 Date: 2024-04-23
 Identifier: Case 23869
-Reference: https://thedfirreport.com
+Reference: https://thedfirreport.com/2024/04/29/from-icedid-to-dagon-locker-ransomware-in-29-days/
 */
 
 /* Rule Set ----------------------------------------------------------------- */
@@ -19,7 +19,7 @@ rule case_23869_sysfunc_cmd {
 		author = "TDR"
 		description = "File generated dynamically from awscollector.ps1"
 		category = "TOOL"
-		reference = "https://thedfirreport.com/"
+		reference = "https://thedfirreport.com/2024/04/29/from-icedid-to-dagon-locker-ransomware-in-29-days/"
 		hash = "f3b211c45090f371869c396716972429896e0427da55ce8f1981787c2ea7eb0b"
 
 	strings:
@@ -44,7 +44,7 @@ rule case_23869_awscollector_ps1 {
 		author = "TDR"
 		description = "awscollector.ps1"
 		category = "TOOL"
-		reference = "https://thedfirreport.com/"
+		reference = "https://thedfirreport.com/2024/04/29/from-icedid-to-dagon-locker-ransomware-in-29-days/"
 		hash = "e737831bea7ab9e294bf6b58ca193ba302b8869f5405aa6d3a6492d0334a04a6"
 
 	strings:
@@ -68,7 +68,7 @@ rule case_23869_sysfunc_dll {
 		author = "TDR"
 		description = "Description"
 		category = "TOOL"
-		reference = "https://thedfirreport.com/"
+		reference = "https://thedfirreport.com/2024/04/29/from-icedid-to-dagon-locker-ransomware-in-29-days/"
 		hash = "b3942ead0bf76cf5f4baaa563b603fb6343009c324e3c862d16bbbbdcf482f1a"
 
 	strings:
@@ -92,7 +92,7 @@ rule case_23869_document_468 {
 		description = "iceid loader"
 		category = "MALWARE"
 		malware = "iceid_loader"
-		reference = "https://thedfirreport.com/"
+		reference = "https://thedfirreport.com/2024/04/29/from-icedid-to-dagon-locker-ransomware-in-29-days/"
 		hash = "f6e5dbff14ef272ce07743887a16decbee2607f512ff2a9045415c8e0c05dbb4"
 
 	strings:
@@ -115,7 +115,7 @@ rule case_23869_anydesk_ps1 {
 		description = "anydesk install powershell script"
 		category = "TOOL"
 		malware = "anydesk"
-		reference = "https://thedfirreport.com/"
+		reference = "https://thedfirreport.com/2024/04/29/from-icedid-to-dagon-locker-ransomware-in-29-days/"
 		hash = "3064cecf8679d5ba1d981d6990058e1c3fae2846b72fa77acad6ab2b4f582dd7"
 
 	strings:
