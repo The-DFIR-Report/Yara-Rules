@@ -199,37 +199,4 @@ rule sig_24952_files_ccc_fileserv_nocmd {
 
 
 
-rule sig_24952_files_screen_connect_installer {
-   meta:
-      description = "24952-files - file db.exe"
-      author = "The DFIR Report"
-      reference = "https://thedfirreport.com"
-      date = "2024-05-27"
-      hash1 = "c078e6b7d14243cb18558e116ab029435e51ad5cba3dfc4dfaff8c44358c9f7e"
-   strings:
-      $x1 = "Foreign key referencing Component that controls the file.FileNameFilenameFile name used for installation, may be localized.  Thi" ascii
-      $x2 = "ExecServiceConfigRollbackServiceConfigProgramFilesFolderTBDTARGETDIR.SourceDirFulldbbvsztr.dll|ScreenConnect.ClientService.dll23" ascii
-      $x3 = "C:\\Users\\jmorgan\\Source\\cwcontrol\\Custom\\DotNetRunner\\Release\\DotNetRunner.pdb" fullword ascii
-      $x4 = "C:\\Users\\jmorgan\\Source\\cwcontrol\\Custom\\DotNetRunner\\DotNetResolver\\obj\\Debug\\DotNetResolver.pdb" fullword ascii
-      $x5 = "rstrtmgr.dll" fullword wide /* reversed goodware string 'lld.rgmtrtsr' */
-      $x6 = "\\\\.\\Pipe\\TerminalServer\\SystemExecSrvr\\" fullword wide
-      $s7 = "failed to get WixShellExecBinaryId" fullword ascii
-      $s8 = "un if failure action is RUN_COMMAND.RebootMessageMessage to show to users when rebooting if failure action is REBOOT.ServiceCont" ascii
-      $s9 = "failed to get handle to kernel32.dll" fullword ascii
-      $s10 = "failed to process target from CustomActionData" fullword ascii
-      $s11 = "Specify your proxy server and optional credentials. These values will be preferred when connecting to your session. However, oth" ascii
-      $s12 = "CommandStoreLoginCredentials" fullword wide
-      $s13 = "XSystem.Char, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 " fullword ascii
-      $s14 = "RAMETERS AND %PROCESSOR_ARCHITECTURE <> \"x86\" AND VersionNT >= 601ScreenConnect.WindowsCredentialProvider.dllFixupServiceArgum" ascii
-      $s15 = "ZSystem.UInt32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" fullword ascii
-      $s16 = "XSystem.Byte, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" fullword ascii
-      $s17 = "YSystem.Int16, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" fullword ascii
-      $s18 = "lSystem.Resources.ResourceReader, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089#System.Resources.R" ascii
-      $s19 = "System.Security.Cryptography.AesCryptoServiceProvider, System.Core, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c56193" wide
-      $s20 = "System.Security.Permissions.SecurityPermissionAttribute, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934" ascii
-   condition:
-      uint16(0) == 0x5a4d and filesize < 16000KB and
-      ( pe.imphash() == "9771ee6344923fa220489ab01239bdfd" or ( 1 of ($x*) or 4 of them ) )
-}
-
 
