@@ -2,8 +2,8 @@
    YARA Rule Set
    Author: The DFIR Report
    Date: 2024-05-27
-   Identifier: 24952-files
-   Reference: https://thedfirreport.com
+   Identifier: Case 24952
+   Reference: https://thedfirreport.com/2024/06/10/icedid-brings-screenconnect-and-csharp-streamer-to-alphv-ransomware-deployment
 */
 
 /* Rule Set ----------------------------------------------------------------- */
@@ -14,7 +14,7 @@ rule sig_24952_cobalt_strike_cscs {
    meta:
       description = "cobalt_strike - file cscs.exe"
       author = "The DFIR Report"
-      reference = "https://thedfirreport.com"
+      reference = "https://thedfirreport.com/2024/06/10/icedid-brings-screenconnect-and-csharp-streamer-to-alphv-ransomware-deployment"
       date = "2024-05-27"
       hash1 = "5d1817065266822df9fa6e8c5589534e031bb6a02493007f88d51a9cfb92e89b"
    strings:
@@ -49,7 +49,7 @@ rule sig_24952_confucius_cpp {
    meta:
       description = "24952-files - file confucius_cpp.exe"
       author = "The DFIR Report"
-      reference = "https://thedfirreport.com"
+      reference = "https://thedfirreport.com/2024/06/10/icedid-brings-screenconnect-and-csharp-streamer-to-alphv-ransomware-deployment"
       date = "2024-05-27"
       hash1 = "dfa8c282178a509346fb0154e6dbd5fbb0b56c38894ce7d244f5ca26d6820e67"
    strings:
@@ -83,7 +83,7 @@ rule sig_24952_0370_icedid_dll {
    meta:
       description = "24952-files - file 0370-1.dll"
       author = "The DFIR Report"
-      reference = "https://thedfirreport.com"
+      reference = "https://thedfirreport.com/2024/06/10/icedid-brings-screenconnect-and-csharp-streamer-to-alphv-ransomware-deployment"
       date = "2024-05-27"
       hash1 = "fab34d1f0f906f64f95b9f244ae1fe090427e606a9c808c720e18e93a08ed84d"
    strings:
@@ -117,7 +117,7 @@ rule sig_24952_Document_2023_vbs {
    meta:
       description = "24952-files - file Document[2023.10.11_08-07].vbs"
       author = "The DFIR Report"
-      reference = "https://thedfirreport.com"
+      reference = "https://thedfirreport.com/2024/06/10/icedid-brings-screenconnect-and-csharp-streamer-to-alphv-ransomware-deployment"
       date = "2024-05-27"
       hash1 = "5bab2bc0843f9d5124b39f80e12ad6d1f02416b0340d7cfec8cf7b14cd4385bf"
    strings:
@@ -151,7 +151,7 @@ rule sig_24952_files_csharp_streamer {
    meta:
       description = "24952-files - file cslite.exe"
       author = "The DFIR Report"
-      reference = "https://thedfirreport.com"
+      reference = "https://thedfirreport.com/2024/06/10/icedid-brings-screenconnect-and-csharp-streamer-to-alphv-ransomware-deployment"
       date = "2024-05-27"
       hash1 = "4103cc8017409963b417c87259af2a955653567cdbf7d5504198dd350f9ef9c1"
    strings:
@@ -185,7 +185,7 @@ rule sig_24952_files_ccc_fileserv_nocmd {
    meta:
       description = "24952-files - file nocmd.vbs"
       author = "The DFIR Report"
-      reference = "https://thedfirreport.com"
+      reference = "https://thedfirreport.com/2024/06/10/icedid-brings-screenconnect-and-csharp-streamer-to-alphv-ransomware-deployment"
       date = "2024-05-27"
       hash1 = "457a2f29d395c04a6ad6012fab4d30e04d99d7fc8640a9ee92e314185cc741d3"
    strings:
