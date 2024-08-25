@@ -14,7 +14,7 @@ rule case_26364_cobalt_strike_smb_beacon {
    meta:
       description = "Case 26364 - file e225857.exe Cobalt Strike SMB beacon"
       author = "The DFIR Report"
-      reference = "https://thedfirreport.com"
+      reference = "https://thedfirreport.com/2025/08/26/blacksuit-ransomware/"
       date = "2024-08-20"
       hash1 = "f474241a5d082500be84a62f013bc2ac5cde7f18b50bf9bb127e52bf282fffbf"
    strings:
@@ -48,7 +48,7 @@ rule case_26364_Get_DataInfo {
    meta:
       description = "Case 26364 - file Get-DataInfo.ps1"
       author = "The DFIR Report"
-      reference = "https://thedfirreport.com"
+      reference = "https://thedfirreport.com/2025/08/26/blacksuit-ransomware/"
       date = "2024-08-20"
       hash1 = "6f5f3c8aa308819337a2f69d453ab2f6252491aa0ccc94a8364d0c3c10533173"
    strings:
@@ -82,7 +82,7 @@ rule case_26364_socks32_systembc {
    meta:
       description = "Case 26364 - file socks32.exe SystemBC executable"
       author = "The DFIR Report"
-      reference = "https://thedfirreport.com"
+      reference = "https://thedfirreport.com/2025/08/26/blacksuit-ransomware/"
       date = "2024-08-20"
       hash1 = "9493b512d7d15510ebee5b300c55b67f9f2ff1dda64bddc99ba8ba5024113300"
    strings:
@@ -113,7 +113,7 @@ rule case_26364_qwe {
    meta:
       description = "Case 26364 - file qwe.exe BlackSuit ransomware binary"
       author = "The DFIR Report"
-      reference = "https://thedfirreport.com"
+      reference = "https://thedfirreport.com/2025/08/26/blacksuit-ransomware/"
       date = "2024-08-20"
       hash1 = "60dcbfb30802e7f4c37c9cdfc04ddb411060918d19e5b309a5be6b4a73c8b18a"
    strings:
