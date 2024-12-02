@@ -3,7 +3,7 @@ rule VeeamHax
     meta:
         description = "exe - file VeeamHax.exe"
 		author = "The DFIR Report, _pete_0"
-		reference = "https://thedfirreport.com"
+		reference = "https://thedfirreport.com/2024/12/02/the-curious-case-of-an-egg-cellent-resume/"
 		date = "2024-11-15"
 		hash1 = "AAA6041912A6BA3CF167ECDB90A434A62FEAF08639C59705847706B9F492015D"
         
