@@ -107,11 +107,11 @@ rule sig_27138_setup_wm {
       $s20 = "666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666" ascii /* hex encoded string 'ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff' */
    condition:
       uint16(0) == 0x5a4d and filesize < 6000KB and
-      ( pe.imphash() == "914f48205872e2a197aaae4775f619b3" or 8 of them )
+      ( pe.imphash() == "914f48205872e2a197aaae4775f619b3" or all of them )
 }
 
 
-rule sig_27138_share__svcmc {
+rule sig_27138_share_svcmc {
    meta:
       description = "27138 - file svcmc.dll"
       author = "The DFIR Report"
