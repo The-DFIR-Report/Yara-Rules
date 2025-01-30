@@ -3,7 +3,7 @@
    Author: The DFIR Report
    Date: 2025-01-23
    Identifier: Case 27138
-   Reference: https://thedfirreport.com
+   Reference: https://thedfirreport.com/2025/01/27/cobalt-strike-and-a-pair-of-socks-lead-to-lockbit-ransomware/
 */
 
 /* Rule Set ----------------------------------------------------------------- */
@@ -14,7 +14,7 @@ rule sig_27138_Veeam_Get_Creds {
    meta:
       description = "27138 - file Veeam-Get-Creds.ps1"
       author = "The DFIR Report"
-      reference = "https://thedfirreport.com"
+      reference = "https://thedfirreport.com/2025/01/27/cobalt-strike-and-a-pair-of-socks-lead-to-lockbit-ransomware/"
       date = "2025-01-23"
       hash1 = "18051333e658c4816ff3576a2e9d97fe2a1196ac0ea5ed9ba386c46defafdb88"
    strings:
@@ -47,7 +47,7 @@ rule sig_27138_lockbit_sd {
    meta:
       description = "27138 - file sd.exe"
       author = "The DFIR Report"
-      reference = "https://thedfirreport.com"
+      reference = "https://thedfirreport.com/2025/01/27/cobalt-strike-and-a-pair-of-socks-lead-to-lockbit-ransomware/"
       date = "2025-01-23"
       hash1 = "c1173628f18f7430d792bbbefc6878bced4539c8080d518555d08683a3f1a835"
    strings:
@@ -81,7 +81,7 @@ rule sig_27138_setup_wm {
    meta:
       description = "27138 - file setup_wm.exe"
       author = "The DFIR Report"
-      reference = "https://thedfirreport.com"
+      reference = "https://thedfirreport.com/2025/01/27/cobalt-strike-and-a-pair-of-socks-lead-to-lockbit-ransomware/"
       date = "2025-01-23"
       hash1 = "d8b2d883d3b376833fa8e2093e82d0a118ba13b01a2054f8447f57d9fec67030"
    strings:
@@ -115,7 +115,7 @@ rule sig_27138_share_svcmc {
    meta:
       description = "27138 - file svcmc.dll"
       author = "The DFIR Report"
-      reference = "https://thedfirreport.com"
+      reference = "https://thedfirreport.com/2025/01/27/cobalt-strike-and-a-pair-of-socks-lead-to-lockbit-ransomware/"
       date = "2025-01-23"
       hash1 = "ced4ee8a9814c243f0c157cda900def172b95bb4bc8535e480fe432ab84b9175"
    strings:
@@ -148,7 +148,7 @@ rule sig_27138_systembc_svc {
    meta:
       description = "27138 - file svc.dll"
       author = "The DFIR Report"
-      reference = "https://thedfirreport.com"
+      reference = "https://thedfirreport.com/2025/01/27/cobalt-strike-and-a-pair-of-socks-lead-to-lockbit-ransomware/"
       date = "2025-01-23"
       hash1 = "2389b3978887ec1094b26b35e21e9c77826d91f7fa25b2a1cb5ad836ba2d7ec4"
    strings:
@@ -174,7 +174,7 @@ rule sig_27138_svchosts_ghostsocks {
    meta:
       description = "27138 - file svchosts.exe"
       author = "The DFIR Report"
-      reference = "https://thedfirreport.com"
+      reference = "https://thedfirreport.com/2025/01/27/cobalt-strike-and-a-pair-of-socks-lead-to-lockbit-ransomware/"
       date = "2025-01-23"
       hash1 = "b4ad5df385ee964fe9a800f2cdaa03626c8e8811ddb171f8e821876373335e63"
    strings:
@@ -207,7 +207,7 @@ rule sig_27138_share__SETUP {
    meta:
       description = "27138 - file SETUP.bat"
       author = "The DFIR Report"
-      reference = "https://thedfirreport.com"
+      reference = "https://thedfirreport.com/2025/01/27/cobalt-strike-and-a-pair-of-socks-lead-to-lockbit-ransomware/"
       date = "2025-01-23"
       hash1 = "7673a949181e33ff8ed77d992a2826c25b8da333f9e03213ae3a72bb4e9a705d"
    strings:
@@ -228,7 +228,7 @@ rule sig_27138_files_check {
    meta:
       description = "27138 - file check.exe"
       author = "The DFIR Report"
-      reference = "https://thedfirreport.com"
+      reference = "https://thedfirreport.com/2025/01/27/cobalt-strike-and-a-pair-of-socks-lead-to-lockbit-ransomware/"
       date = "2025-01-23"
       hash1 = "3f97e112f0c5ddf0255ef461746a223208dc0846bde2a6dca9c825d9c706a4e9"
    strings:
@@ -266,7 +266,7 @@ rule sig_27138_svcmc_svchosts_0 {
    meta:
       description = "27138 - from files svcmc.dll, svchosts.exe"
       author = "The DFIR Report"
-      reference = "https://thedfirreport.com"
+      reference = "https://thedfirreport.com/2025/01/27/cobalt-strike-and-a-pair-of-socks-lead-to-lockbit-ransomware/"
       date = "2025-01-23"
       hash1 = "ced4ee8a9814c243f0c157cda900def172b95bb4bc8535e480fe432ab84b9175"
       hash2 = "b4ad5df385ee964fe9a800f2cdaa03626c8e8811ddb171f8e821876373335e63"
