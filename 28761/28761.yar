@@ -2,10 +2,10 @@ rule BRC4_Loader {
     meta:
         description = "Detects BRC4 Loader"
         author = "The DFIR Report, RussianPanda"
-	reference = "https://thedfirreport.com/"
+		reference = "https://thedfirreport.com/"
         date = "2025-06-24"
         hash1 = "6c3b2490e99cd8397fb79d84a5638c1a0c4edb516a4b0047aa70b5811483db8f"
-	hash2 = "f4cb6b684ea097f867d406a978b3422bbf2ecfea39236bf3ab99340996b825de"
+		hash2 = "f4cb6b684ea097f867d406a978b3422bbf2ecfea39236bf3ab99340996b825de"
     strings:
         $s1 = {44 0F BE 4D AF 33 C9 [0-5] 41 C1 E1 03 41 B8}
         $s2 = {0F B6 C9 48 8D 52 01 83 C9 60 03 C1 0F B6 0A 03 C0 84 C9 75 EB}
@@ -16,17 +16,17 @@ rule BRC4_Loader {
 rule latro_stealer_module {
     meta:
         description = "Detects Latrodectus Stealer Module"
-	author = "The DFIR Report, RussianPanda"
-	reference = "https://thedfirreport.com/"
+		author = "The DFIR Report, RussianPanda"
+		reference = "https://thedfirreport.com/"
         date = "2025-09-01"
         hash = "7f04fffad5549592c3d2baaa9c893ba046e94f7c83c9b5be4cc2d507245c4d86"
     strings:
         $s1 = "cr_pass"
-	$s2 = "ff_pass"
-	$s3 = "ie_pass"
-	$s4 = "edge_pass"
-	$s5 = "outlook_pass"
-	$s6 = "edge_pass"
+		$s2 = "ff_pass"
+		$s3 = "ie_pass"
+		$s4 = "edge_pass"
+		$s5 = "outlook_pass"
+		$s6 = "edge_pass"
     condition:
         all of them
 }
@@ -35,7 +35,7 @@ rule lsassa_backdoor {
     meta:
         description = "Detects LSASSA Backdoor"
         author = "The DFIR Report, RussianPanda"
-	reference = "https://thedfirreport.com/"
+		reference = "https://thedfirreport.com/"
         date = "2025-06-24"
         hash = "203eda879dbdb128259cd658b22c9c21c66cbcfa1e2f39879c73b4dafb84c592"
     strings:
