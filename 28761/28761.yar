@@ -2,6 +2,7 @@ rule BRC4_Loader {
     meta:
         description = "Detects BRC4 Loader"
         author = "The DFIR Report, RussianPanda"
+		id = "aae537a8-ba8f-4d92-94f2-554dd0cad8cd"
 		reference = "https://thedfirreport.com/"
         date = "2025-06-24"
         hash1 = "6c3b2490e99cd8397fb79d84a5638c1a0c4edb516a4b0047aa70b5811483db8f"
@@ -17,6 +18,7 @@ rule latro_stealer_module {
     meta:
         description = "Detects Latrodectus Stealer Module"
 		author = "The DFIR Report, RussianPanda"
+		id = "4d75f691-f467-4284-8774-a3202f375262"
 		reference = "https://thedfirreport.com/"
         date = "2025-09-01"
         hash = "7f04fffad5549592c3d2baaa9c893ba046e94f7c83c9b5be4cc2d507245c4d86"
@@ -35,6 +37,7 @@ rule lsassa_backdoor {
     meta:
         description = "Detects LSASSA Backdoor"
         author = "The DFIR Report, RussianPanda"
+		id = "913649fb-e20d-469b-b87c-e1591d43387c"
 		reference = "https://thedfirreport.com/"
         date = "2025-06-24"
         hash = "203eda879dbdb128259cd658b22c9c21c66cbcfa1e2f39879c73b4dafb84c592"
